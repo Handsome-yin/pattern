@@ -1,7 +1,7 @@
 package com.pattern.singleton.lazy;
 
 
-//懒汉式单例
+//懒汉式单例  此方案多线程情况下会创建多个
 
     //在外部需要使用的时候才进行实例化
 public class LazyOne {

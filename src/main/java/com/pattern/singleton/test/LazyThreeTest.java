@@ -28,6 +28,7 @@ public class LazyThreeTest {
             //犯了原则性问题，
             Object o2 = c.newInstance();
 
+            System.out.println(o1+"----"+o2);
             System.out.println(o1 == o2);
 //            Object o2 = c.newInstance();
 

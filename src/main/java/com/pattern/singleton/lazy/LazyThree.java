@@ -11,7 +11,7 @@ package com.pattern.singleton.lazy;
     //史上最牛B的单例模式的实现方式
 public class LazyThree {
 
-    private boolean initialized = false;
+    private static boolean initialized = false;
 
     //默认使用LazyThree的时候，会先初始化内部类
     //如果没使用的话，内部类是不加载的
