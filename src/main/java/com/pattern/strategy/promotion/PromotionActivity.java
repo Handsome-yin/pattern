@@ -2,7 +2,7 @@ package com.pattern.strategy.promotion;
 
 /**
  * 优惠活动
- * Created by Tom
+ *
  */
 public class PromotionActivity {
     private PromotionStrategy promotionStrategy;

@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * 支付策略管理
- * Created by Tom.
+ *  .
  */
 public class PayStrategy {
     public static final String ALI_PAY = "AliPay";

@@ -5,7 +5,7 @@ import org.springframework.beans.factory.support.InstantiationStrategy;
 
 
 /**
- * Created by Tom.
+ *  .
  */
 public class PayStrategyTest {
 
