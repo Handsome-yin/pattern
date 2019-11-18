@@ -1,8 +1,9 @@
 package com.pattern.proxy.dbroute.proxy;
 
-import com.gupaoedu.vip.pattern.proxy.dbroute.IOrderService;
-import com.gupaoedu.vip.pattern.proxy.dbroute.Order;
-import com.gupaoedu.vip.pattern.proxy.dbroute.db.DynamicDataSourceEntity;
+
+import com.pattern.proxy.dbroute.IOrderService;
+import com.pattern.proxy.dbroute.Order;
+import com.pattern.proxy.dbroute.db.DynamicDataSourceEntity;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

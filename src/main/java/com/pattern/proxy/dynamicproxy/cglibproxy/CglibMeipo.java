@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
 /**
  *
  */
-public class CGlibMeipo implements MethodInterceptor {
+class CGlibMeipo implements MethodInterceptor {
 
 
     public Object getInstance(Class<?> clazz) throws Exception{

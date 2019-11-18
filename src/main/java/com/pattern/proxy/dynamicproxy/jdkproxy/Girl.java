@@ -1,6 +1,7 @@
 package com.pattern.proxy.dynamicproxy.jdkproxy;
 
-import com.gupaoedu.vip.pattern.proxy.Person;
+
+import com.pattern.proxy.Person;
 
 /**
  *

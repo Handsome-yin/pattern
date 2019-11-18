@@ -1,6 +1,5 @@
 package com.pattern.proxy.dynamicproxy.gpproxy;
 
-import com.gupaoedu.vip.pattern.proxy.Person;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;

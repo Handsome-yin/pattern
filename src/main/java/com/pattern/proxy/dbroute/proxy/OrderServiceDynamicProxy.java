@@ -1,11 +1,10 @@
 package com.pattern.proxy.dbroute.proxy;
 
-import com.gupaoedu.vip.pattern.proxy.dbroute.IOrderService;
-import com.gupaoedu.vip.pattern.proxy.dbroute.Order;
-import com.gupaoedu.vip.pattern.proxy.dbroute.db.DynamicDataSourceEntity;
-import com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.GPClassLoader;
-import com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.GPInvocationHandler;
-import com.gupaoedu.vip.pattern.proxy.dynamicproxy.gpproxy.GPProxy;
+
+import com.pattern.proxy.dbroute.db.DynamicDataSourceEntity;
+import com.pattern.proxy.dynamicproxy.gpproxy.GPClassLoader;
+import com.pattern.proxy.dynamicproxy.gpproxy.GPInvocationHandler;
+import com.pattern.proxy.dynamicproxy.gpproxy.GPProxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
