@@ -50,11 +50,6 @@ import java.util.concurrent.CountDownLatch;
         System.out.println("总耗时：" + (end - start));
 
 
-//        CountDownLatch 并不是这样子用,实际应用场景中不要学老师这样投机取巧
-
-
-
-
 
        // Color.INSTANCE.getInstance();
 
