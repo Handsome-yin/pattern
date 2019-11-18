@@ -11,6 +11,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>5.0.2.RELEASE</spring.version>
+        <servlet.api.version>2.4</servlet.api.version>
     </properties>
 
     <dependencies>
@@ -50,6 +51,15 @@
             <artifactId>cglib-nodep</artifactId>
             <version>2.2</version>
         </dependency>
+
+        <!-- requied start -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>${servlet.api.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- requied end -->
     </dependencies>
 
     <build>
