@@ -18,7 +18,7 @@ public class QiTianDaSheng extends Monkey implements Cloneable,Serializable {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
+    protected Object clone()  {
         return this.deepClone();
     }
 
