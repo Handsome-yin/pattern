@@ -12,4 +12,14 @@ public class Girl implements Person {
         System.out.println("身高180cm");
         System.out.println("有6块腹肌");
     }
+
+    public Girl() {
+        System.out.println("construting ...");
+    }
+
+    @Override
+    public String toString() {
+        System.out.println("Girl  is tostring");
+        return "Girl  is tostring";//super.toString();
+    }
 }

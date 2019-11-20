@@ -12,7 +12,8 @@ public class JDKProxyTest {
 
     public static void main(String[] args) {
         try {
-
+            Girl girl = new Girl();
+            System.out.println("");
             Object obj = new JDKMeipo().getInstance(new Girl());
             Method method = obj.getClass().getMethod("findLove",null);
             method.invoke(obj);

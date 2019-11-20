@@ -12,7 +12,7 @@ public class GuavaEventTest {
         EventBus eventBus = new EventBus();
         GuavaEvent guavaEvent = new GuavaEvent();
         eventBus.register(guavaEvent);
-        eventBus.post(" toms");
+        eventBus.post(2121);
 
         //从Struts到SpringMVC的升级
         //因为Struts面向的类，而SpringMVC面向的是方法

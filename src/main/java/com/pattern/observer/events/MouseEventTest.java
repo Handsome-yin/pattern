@@ -18,11 +18,13 @@ public class MouseEventTest {
         //@谁？  @回调方法
         mouse.addLisenter(MouseEventType.ON_CLICK,callback);
         mouse.addLisenter(MouseEventType.ON_FOCUS,callback);
+        mouse.addLisenter(MouseEventType.ON_BLUR,callback);
 
         mouse.click();
 
         mouse.focus();
 
+        mouse.blur();
 
     }
 }
